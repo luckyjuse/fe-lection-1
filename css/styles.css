@@ -1,7 +1,36 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
 body {
   font-family: open sans;
 }
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+img {
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 .header {
+  background-color: gray;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .navigation {
 }
